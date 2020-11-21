@@ -36,8 +36,8 @@ docker run -p61613:61613 zbytes/rabbitmq
 docker-compose up
 ```
 
-- Run ServerRunner java main class.
-- Run HelloClient java main class.
+- Run `ServerRunner` java main class.
+- Run `HelloClient` java main class.
 
 ### Server Output
 ```
