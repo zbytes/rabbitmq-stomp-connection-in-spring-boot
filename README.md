@@ -18,3 +18,20 @@
 </p>
 
 # RabbitMQ STOMP connection in Spring Boot
+
+## To Run
+
+- Build the docker image and run it. (Note: I would prefer docker-compose.yaml)
+- Run ServerRunner java main class.
+- Run HelloClient java main class.
+
+### Server Output
+```
+i.g.zbytes.demo.server.ZbytesController  : Received : Hi zbytes! from: suraj
+```
+ 
+### Client Output
+
+```
+Received greeting {"from":"suraj","text":"Hi zbytes!"}
+```
