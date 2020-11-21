@@ -1,6 +1,5 @@
 package io.github.zbytes.demo.server;
 
-import io.github.zbytes.demo.Message;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.messaging.handler.annotation.MessageMapping;
@@ -14,9 +13,9 @@ public class ZbytesController {
 
     @MessageMapping("/hello")
     @SendTo("/topic/greetings")
-    public Message greeting(Message msg) throws Exception {
+    public ZbytesMessage greeting(ZbytesMessage msg) throws Exception {
         Thread.sleep(1000); // simulated delay
-        LOG.info("Received : " + msg.getText() + " from : " + msg.getFrom());
+        LOG.info("Received : {} from: {} ", msg.getText(), msg.getFrom());
         return msg;
     }
 }

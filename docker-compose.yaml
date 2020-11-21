@@ -1,7 +1,7 @@
 version: "3.4"
 services:
   rabbit:
-    image: zbytes/rabbitmq
+    image: zbytes/rabbitmq-3-management
     build:
       context: deployment
       dockerfile: rabbitmq.dockerfile

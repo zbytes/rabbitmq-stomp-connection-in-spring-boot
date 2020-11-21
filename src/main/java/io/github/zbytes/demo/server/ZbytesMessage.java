@@ -1,6 +1,6 @@
-package io.github.zbytes.demo;
+package io.github.zbytes.demo.server;
 
-public class Message {
+public class ZbytesMessage {
 
     private String from;
     private String text;
