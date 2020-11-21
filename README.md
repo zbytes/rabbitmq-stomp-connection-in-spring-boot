@@ -26,7 +26,7 @@
 *Using Dockerfile*
 
 ```
-docker build -t zbytes/rabbitmq deployment/rabbitmq.dockerfile
+docker build -t zbytes/rabbitmq --file deployment/rabbitmq.dockerfile .
 docker run -p61613:61613 zbytes/rabbitmq
 ```
 
