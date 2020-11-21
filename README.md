@@ -22,6 +22,20 @@
 ## To Run
 
 - Build the docker image and run it. (Note: I would prefer docker-compose.yaml)
+
+*Using Dockerfile*
+
+```
+docker build -t zbytes/rabbitmq deployment/rabbitmq.dockerfile
+docker run -p61613:61613 zbytes/rabbitmq
+```
+
+*Using docker-compose.yaml*
+
+```
+docker-compose up
+```
+
 - Run ServerRunner java main class.
 - Run HelloClient java main class.
 
