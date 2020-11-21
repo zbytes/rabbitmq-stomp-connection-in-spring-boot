@@ -1,5 +1,5 @@
 <p align="center">
-  <a href="https://themes.lekoarts.de">
+  <a href="https://zbytes.github.io">
     <img alt="zbytes - creativity master" src="https://raw.githubusercontent.com/zbytes/zbytes.github.io/master/static/android-chrome-192x192.png" />
   </a>
 </p>
