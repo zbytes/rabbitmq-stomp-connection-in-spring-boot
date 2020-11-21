@@ -1,0 +1,10 @@
+version: "3.4"
+services:
+  rabbit:
+    image: zbytes/rabbitmq
+    build:
+      context: deployment
+      dockerfile: rabbitmq.dockerfile
+    ports:
+      - 61613:61613
+      - 15672:15672
