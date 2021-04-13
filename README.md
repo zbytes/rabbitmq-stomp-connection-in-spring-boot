@@ -19,6 +19,10 @@
 
 # RabbitMQ STOMP connection in Spring Boot
 
+## Relevant Articles
+- https://zbytes.github.io/rabbitmq-stomp-connection-in-spring-boot
+- https://medium.com/zbytes/rabbitmq-stomp-connection-in-spring-boot
+
 ## To Run
 
 - Build the docker image and run it. (Note: I would prefer docker-compose.yaml)
