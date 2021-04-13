@@ -12,13 +12,17 @@
     </a>
 </p>
 
-# Relevant Articles
+# RabbitMQ STOMP connection in Spring Boot
+
+This is a demo for how to use rabbitmq as a message broker using stomp and spring boot.
+
+## Relevant Articles
 - https://zbytes.github.io/rabbitmq-stomp-connection-in-spring-boot
 - https://medium.com/zbytes/rabbitmq-stomp-connection-in-spring-boot
 
-# Title: RabbitMQ STOMP connection in Spring Boot
+## Developer Guide
 
-## To Run
+### To Run
 
 - Build the docker image and run it. (Note: I would prefer docker-compose.yaml)
 
@@ -38,12 +42,12 @@ docker-compose up
 - Run `ServerRunner` java main class.
 - Run `HelloClient` java main class.
 
-### Server Output
+#### Server Output
 ```
 i.g.zbytes.demo.server.ZbytesController  : Received : Hi zbytes! from: suraj
 ```
  
-### Client Output
+#### Client Output
 
 ```
 Received greeting {"from":"suraj","text":"Hi zbytes!"}
