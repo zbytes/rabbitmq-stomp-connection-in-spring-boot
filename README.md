@@ -12,11 +12,11 @@
     </a>
 </p>
 
-# RabbitMQ STOMP connection in Spring Boot
-
-## Relevant Articles
+# Relevant Articles
 - https://zbytes.github.io/rabbitmq-stomp-connection-in-spring-boot
 - https://medium.com/zbytes/rabbitmq-stomp-connection-in-spring-boot
+
+# Title: RabbitMQ STOMP connection in Spring Boot
 
 ## To Run
 
